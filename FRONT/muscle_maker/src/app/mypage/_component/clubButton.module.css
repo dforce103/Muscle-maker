@@ -1,0 +1,46 @@
+.navPill {
+  display: inline-flex;
+  height: 50px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navPill:hover {
+  background-color: rgba(15, 20, 25, 0.1);
+  border-radius: 25px;
+}
+
+.navPill > div {
+  display: none;
+}
+
+.clubPill {
+  display: inline-flex;
+  height: 40px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.clubPill:hover {
+  background-color: rgba(15, 20, 25, 0.1);
+  border-radius: 20px;
+}
+
+.clubPill > div {
+  display: none;
+}
+
+@media all and (min-width: 1300px) {
+  .navPill > div {
+    margin-left: 20px;
+    margin-right: 16px;
+    font-size: 20px;
+    display: inline-block;
+  }
+  .clubPill > div {
+    margin-left: 16px;
+    margin-right: 12px;
+    font-size: 16px;
+    display: inline-block;
+  }
+}

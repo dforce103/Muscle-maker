@@ -1,0 +1,23 @@
+.box {
+  display: flex;
+  background-color: white;
+  margin: 10px;
+  width: 96%;
+  height: 260px;
+  border-radius: 10px;
+}
+
+.innerbox {
+  margin: auto;
+  justify-content: center; /* 수평 정렬 */
+  align-items: center; /* 수직 정렬 */
+}
+
+.headtext {
+  text-align: center;
+}
+
+.pagebackgroundcolor {
+  background-color: rgb(118, 114, 114);
+  height: 100%;
+}
